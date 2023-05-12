@@ -1,2 +1,2 @@
 #!bin/bash
-cp -ax ./ ..//
+cp -ax -t .html ../
