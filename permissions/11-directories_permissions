@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+rx -R ../
+chmod 644 -R ../
