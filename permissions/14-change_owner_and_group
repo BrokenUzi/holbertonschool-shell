@@ -1,2 +1,2 @@
 #!/bin/bash
-chown +rwx vincent staff .
+chown +rwx vincent staff
