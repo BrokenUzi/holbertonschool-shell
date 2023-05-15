@@ -1,2 +1,2 @@
 #!/bin/bash
-chmodi ugo+rwx vincent:staff .
+chmod ugo+wrx vincent:staff .
