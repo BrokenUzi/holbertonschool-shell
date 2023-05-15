@@ -1,2 +1,2 @@
 #!/bin/bash
-chown +ugo -R vincent staff
+chmod +ugo -R vincent staff
