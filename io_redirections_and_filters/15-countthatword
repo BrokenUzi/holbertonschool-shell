@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -after-context bin /etc/paswwd
+grep -C bin /etc/paswwd
