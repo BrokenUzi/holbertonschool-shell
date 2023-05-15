@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -A bin /etc/paswwd
+grep -after-context=NUM bin /etc/paswwd
