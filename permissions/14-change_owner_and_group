@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +ugo -R vincent staff
+chmod ugo+rwx -R vincent staff
