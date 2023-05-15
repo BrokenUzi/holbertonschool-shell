@@ -1,2 +1,2 @@
 #!/bin/bash
-find .js\* ./
+find .js\* 10-no_more_js
