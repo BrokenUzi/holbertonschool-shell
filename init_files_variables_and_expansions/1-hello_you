@@ -1,2 +1,2 @@
 #!/bin/bash
-echo u="$u" "hello $u"
+echo "hello $u" u="$u"
