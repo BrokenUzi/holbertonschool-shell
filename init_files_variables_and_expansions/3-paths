@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv PATH=$PATH:/ls -d 
+echo PATH=$PATH:/ls -d 
