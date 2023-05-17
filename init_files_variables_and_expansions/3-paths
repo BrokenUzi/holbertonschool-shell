@@ -1,2 +1,2 @@
 #!/bin/bash
-echo PATH=$PATH:/ls -d -n 
+export echo PATH=$PATH: 
