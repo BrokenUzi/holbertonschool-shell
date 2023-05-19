@@ -12,8 +12,7 @@ if
 	[[ "$count" -eq '4' ]]
 then
 	echo 'bad luck'
-fi
-if
+elif
         [[ "$count" -eq '8' ]]
 then
         echo 'good luck'
