@@ -3,11 +3,11 @@
 count=0
 while [ $count = 10 ]
 do
+	((count++))
 	echo "Best School"
-	(( count++ ))
 if
-	[[ "$count" = '9' ]]; then
-	break
+	[[ "$count" == '9' ]]; then
+	continue
 fi
-done
 echo 'Hi'
+done
