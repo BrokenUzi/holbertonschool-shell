@@ -6,7 +6,7 @@ do
 	count=$((count++))
 	echo "Best School"
 if
-	[[ "$count" -le '9' ]]; then echo 'Hi'
+	[[ "$count" = '9' ]]; then echo 'Hi'
 	continue
 fi
 done
