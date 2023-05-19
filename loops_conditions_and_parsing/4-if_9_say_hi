@@ -6,7 +6,7 @@ do
 	echo "Best School"
 	(( count++ ))
 if
-	[[ "$count" == '9' ]]; then
+	[[ "$count" = '9' ]]; then
 	break
 fi
 done
