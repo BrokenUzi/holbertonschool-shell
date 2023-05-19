@@ -14,7 +14,7 @@ then
 	echo 'bad luck'
 elif
         [[ "$count" -eq '8' ]]
-then
+else
         echo 'good luck'
 fi
 
