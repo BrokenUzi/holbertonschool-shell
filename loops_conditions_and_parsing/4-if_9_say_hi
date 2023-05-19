@@ -3,7 +3,7 @@
 count=0
 while [ $count <= 10 ]
 do
-	((count++))
+	$((count++))
 	echo "Best School"
 if
 	[[ "$count" -le '9' ]]; then
