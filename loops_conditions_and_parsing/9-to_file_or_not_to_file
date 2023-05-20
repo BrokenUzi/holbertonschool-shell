@@ -18,7 +18,10 @@ then
 if [ -s "school" ]
 then
 	echo "school file is not empty"
-if [ -f "school" ]
+else
+	echo "school file is empty"
+fi
+if [ -s = "school" ]
 then
 	echo "school is a regular file"
 fi
