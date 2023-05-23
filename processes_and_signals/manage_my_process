@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 #This script echos "I AM ALIVE" indefinetely.
+count=1
 
-count=0
-
-while [ $count -ge 1 ]
+while [ $count -gt 0 ]
 do
 	echo "I am alive!" >> /tmp/my_process
-	count=$((count+1))
+	count="$(( count+1 ))"
 	sleep 2
 done
