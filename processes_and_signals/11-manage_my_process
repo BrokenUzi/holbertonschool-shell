@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Kills the "I AM ALIVE" loop
-
 case "$1" in
 start)
 		./manage_my_process &
